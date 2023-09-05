@@ -12,3 +12,9 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+##
+This function finds the maximum value in an array.
+First, it checks to see if the array size is one, and then if true, it returns the single element
+Then we create a new array by making a recursive call on our original array and returning all elements in the original array except for the first value. Now we check to see if the value that was sliced from the array is greater than the first element of the original array.
+we return whichever value is greater and repeat this process until the array length is 1.
